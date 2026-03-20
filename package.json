@@ -83,7 +83,7 @@
     "@babel/runtime": "^7.28.6",
     "@rehooks/local-storage": "^2.4.4",
     "classnames": "^2.2.6",
-    "dompurify": "^3.0.9",
+    "dompurify": "^3.3.3",
     "final-form": "^4.18.2",
     "final-form-arrays": "^3.0.2",
     "lodash": "^4.17.4",
