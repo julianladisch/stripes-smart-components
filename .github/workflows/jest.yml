@@ -13,5 +13,6 @@ jobs:
           node-version: '22'
           cache: 'yarn'
       - run: yarn config set @folio:registry https://repository.folio.org/repository/npm-folioci/
-      - run: yarn install --frozen-lockfile --ignore-scripts --non-interactive
+      #- run: yarn install --frozen-lockfile --ignore-scripts --non-interactive
+      - run: yarn install --ignore-scripts --non-interactive
       - run: yarn run test:jest
