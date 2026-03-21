@@ -1,0 +1,17 @@
+on:
+  - push
+  - pull_request
+  - workflow_dispatch
+
+jobs:
+  jest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-node@v6
+        with:
+          node-version: '22'
+          cache: 'yarn'
+          registry-url: https://repository.folio.org/repository/npm-folioci/
+      - run: yarn install --frozen-lockfile --ignore-scripts --non-interactive
+      - run: yarn run test:jest
