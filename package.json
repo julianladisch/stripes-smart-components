@@ -84,7 +84,7 @@
     "@rehooks/local-storage": "^2.4.5",
     "classnames": "^2.5.1",
     "dompurify": "^3.3.3",
-    "final-form": "^4.18.2",
+    "final-form": "^4.20.10",
     "final-form-arrays": "^3.0.2",
     "lodash": "^4.17.4",
     "moment-timezone": "^0.5.17",
