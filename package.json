@@ -80,7 +80,7 @@
     "stylelint-junit-formatter": "^0.2.2"
   },
   "dependencies": {
-    "@babel/runtime": "^7.28.6",
+    "@babel/runtime": "^7.29.2",
     "@rehooks/local-storage": "^2.4.4",
     "classnames": "^2.2.6",
     "dompurify": "^3.3.3",
