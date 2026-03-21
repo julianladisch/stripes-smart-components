@@ -12,6 +12,6 @@ jobs:
         with:
           node-version: '22'
           cache: 'yarn'
-          registry-url: https://repository.folio.org/repository/npm-folioci/
+      - run: yarn config set @folio:registry https://repository.folio.org/repository/npm-folioci/
       - run: yarn install --frozen-lockfile --ignore-scripts --non-interactive
       - run: yarn run test:jest
