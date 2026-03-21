@@ -81,8 +81,8 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.29.2",
-    "@rehooks/local-storage": "^2.4.4",
-    "classnames": "^2.2.6",
+    "@rehooks/local-storage": "^2.4.5",
+    "classnames": "^2.5.1",
     "dompurify": "^3.3.3",
     "final-form": "^4.18.2",
     "final-form-arrays": "^3.0.2",
