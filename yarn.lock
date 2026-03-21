@@ -2000,10 +2000,10 @@
   dependencies:
     regenerator-runtime "^0.14.0"
 
-"@babel/runtime@^7.28.6":
-  version "7.28.6"
-  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.28.6.tgz#d267a43cb1836dc4d182cce93ae75ba954ef6d2b"
-  integrity sha512-05WQkdpL9COIMz4LjTxGpPNCdlpyimKppYNoJ5Di5EUObifl8t4tuLuUBBZEpoLYOmfvIWrsp9fCl0HoPRVTdA==
+"@babel/runtime@^7.29.2":
+  version "7.29.2"
+  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.29.2.tgz#9a6e2d05f4b6692e1801cd4fb176ad823930ed5e"
+  integrity sha512-JiDShH45zKHWyGe4ZNVRrCjBz8Nh9TMmZG1kh4QTK8hCBTWBi8Da+i7s1fJw7/lYpM4ccepSNfqzZ/QvABBi5g==
 
 "@babel/template@^7.22.15", "@babel/template@^7.24.0":
   version "7.24.0"
@@ -3845,7 +3845,7 @@
   resolved "https://registry.yarnpkg.com/@popperjs/core/-/core-2.11.8.tgz#6b79032e760a0899cd4204710beede972a3a185f"
   integrity sha512-P1st0aksCrn9sGZhp8GMYwBnQsbvAWsZAX44oXNNvLHGqAOcoVxmjZiohstwQ7SqKnbR47akdNi+uleWD8+g6A==
 
-"@rehooks/local-storage@^2.4.4":
+"@rehooks/local-storage@^2.4.5":
   version "2.4.5"
   resolved "https://registry.yarnpkg.com/@rehooks/local-storage/-/local-storage-2.4.5.tgz#92c773ce623e168274557499679582cd32749f77"
   integrity sha512-3Q4KtiUBaKoIDRK72BWfAy50ul6hbw29f/M7tyCzlMe2FbSsiQNok0WGeBLaYj4T2PJ7JMSJlSbUGY8RNsImmw==
@@ -4474,6 +4474,11 @@
   version "4.0.5"
   resolved "https://registry.yarnpkg.com/@types/tough-cookie/-/tough-cookie-4.0.5.tgz#cb6e2a691b70cb177c6e3ae9c1d2e8b2ea8cd304"
   integrity sha512-/Ad8+nIOV7Rl++6f1BdKxFSMgmoqEoYbHRpPcx3JEfv8VRsQe9Z4mCXeJBzxs7mbHY/XOZZuXlRNfhpVPbs6ZA==
+
+"@types/trusted-types@^2.0.7":
+  version "2.0.7"
+  resolved "https://registry.yarnpkg.com/@types/trusted-types/-/trusted-types-2.0.7.tgz#baccb07a970b91707df3a3e8ba6896c57ead2d11"
+  integrity sha512-ScaPdn1dQczgbl0QFTeTOmVHFULt394XJgOQNoyVhZ6r2vLnMLJfBPd53SB52T/3G36VI1/g2MZaX0cwDuXsfw==
 
 "@types/use-sync-external-store@^0.0.3":
   version "0.0.3"
@@ -6223,7 +6228,7 @@ cjs-module-lexer@^1.0.0:
   resolved "https://registry.yarnpkg.com/cjs-module-lexer/-/cjs-module-lexer-1.4.1.tgz#707413784dbb3a72aa11c2f2b042a0bef4004170"
   integrity sha512-cuSVIHi9/9E/+821Qjdvngor+xpnlwnuwIyZOaLmHBVdXL+gP+I6QQB9VkO7RI77YIcTV+S1W9AreJ5eN63JBA==
 
-classnames@^2.2.5, classnames@^2.2.6:
+classnames@^2.2.5, classnames@^2.5.1:
   version "2.5.1"
   resolved "https://registry.yarnpkg.com/classnames/-/classnames-2.5.1.tgz#ba774c614be0f016da105c858e7159eae8e7687b"
   integrity sha512-saHYOzhIQs6wy2sVxTM6bUDsQO4F50V9RQ22qBpEdCW+I+/Wmke2HOl6lS6dTpdxVhb88/I6+Hs+438c3lfUow==
@@ -6593,7 +6598,7 @@ cookie@~0.4.1:
   resolved "https://registry.yarnpkg.com/cookie/-/cookie-0.4.2.tgz#0e41f24de5ecf317947c82fc789e06a884824432"
   integrity sha512-aSWTXFzaKWkvHO1Ny/s+ePFpvKsPnjc551iI41v3ny/ow6tBG5Vd+FuqGNhh1LxOmVzOlGUriIlOaokOvhaStA==
 
-copy-to-clipboard@^3.3.1:
+copy-to-clipboard@^3.3.3:
   version "3.3.3"
   resolved "https://registry.yarnpkg.com/copy-to-clipboard/-/copy-to-clipboard-3.3.3.tgz#55ac43a1db8ae639a4bd99511c148cdd1b83a1b0"
   integrity sha512-2KV8NhB5JqC3ky0r9PMCAZKbUHSwtEo4CwCs0KXgruG43gX5PMqDEBbVU4OUzw2MuAWUfsuFmWvEKG5QRfSnJA==
@@ -7579,10 +7584,12 @@ domhandler@^5.0.2, domhandler@^5.0.3:
   dependencies:
     domelementtype "^2.3.0"
 
-dompurify@^3.0.9:
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/dompurify/-/dompurify-3.1.0.tgz#8c6b9fe986969a33aa4686bd829cbe8e14dd9445"
-  integrity sha512-yoU4rhgPKCo+p5UrWWWNKiIq+ToGqmVVhk0PmMYBK4kRsR3/qhemNFL8f6CFmBd4gMwm3F4T7HBoydP5uY07fA==
+dompurify@^3.3.3:
+  version "3.3.3"
+  resolved "https://registry.yarnpkg.com/dompurify/-/dompurify-3.3.3.tgz#680cae8af3e61320ddf3666a3bc843f7b291b2b6"
+  integrity sha512-Oj6pzI2+RqBfFG+qOaOLbFXLQ90ARpcGG6UePL82bJLtdsa6CYJD7nmiU8MW9nQNOtCHV3lZ/Bzq1X0QYbBZCA==
+  optionalDependencies:
+    "@types/trusted-types" "^2.0.7"
 
 domutils@^2.5.2, domutils@^2.8.0:
   version "2.8.0"
@@ -8867,7 +8874,7 @@ filter-obj@^5.1.0:
   resolved "https://registry.yarnpkg.com/filter-obj/-/filter-obj-5.1.0.tgz#5bd89676000a713d7db2e197f660274428e524ed"
   integrity sha512-qWeTREPoT7I0bifpPUXtxkZJ1XJzxWtfoWWkdVGqa+eCr3SHW/Ocp89o8vLvbUuQnadybJpjOKu4V+RwO6sGng==
 
-final-form-arrays@^3.0.1, final-form-arrays@^3.0.2:
+final-form-arrays@^3.0.1, final-form-arrays@^3.1.0:
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/final-form-arrays/-/final-form-arrays-3.1.0.tgz#8bdace2fccedd61f3cbd032ae429813ae5ea37af"
   integrity sha512-TWBvun+AopgBLw9zfTFHBllnKMVNEwCEyDawphPuBGGqNsuhGzhT7yewHys64KFFwzIs6KEteGLpKOwvTQEscQ==
@@ -8877,7 +8884,7 @@ final-form-focus@^1.1.2:
   resolved "https://registry.yarnpkg.com/final-form-focus/-/final-form-focus-1.1.2.tgz#8ea5c4bd802e220cebaa47a587bb0be164eb6806"
   integrity sha512-Gd+Bd2Ll7ijo3/sd6kJ/bwLkhc2bUJPxTON6fIqee/008EJpACWhT+zoWCm9q6NcfMcWRS+Sp5ikRX8iqdXeGQ==
 
-final-form@^4.18.2:
+final-form@^4.18.2, final-form@^4.20.10:
   version "4.20.10"
   resolved "https://registry.yarnpkg.com/final-form/-/final-form-4.20.10.tgz#1a484be6e9a91989121c054dcbd6f48bad051ecc"
   integrity sha512-TL48Pi1oNHeMOHrKv1bCJUrWZDcD3DIG6AGYVNOnyZPr7Bd/pStN0pL+lfzF5BNoj/FclaoiaLenk4XUIFVYng==
@@ -11760,6 +11767,11 @@ lodash@^4.0.0, lodash@^4.17.11, lodash@^4.17.15, lodash@^4.17.20, lodash@^4.17.2
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.21.tgz#679591c564c3bffaae8454cf0b3df370c3d6911c"
   integrity sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==
 
+lodash@^4.17.23:
+  version "4.17.23"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.23.tgz#f113b0378386103be4f6893388c73d0bde7f2c5a"
+  integrity sha512-LgVTMpQtIopCi79SJeDiP0TfWi5CNEc/L/aRdTh3yIvmZXTnheWpKjSZhnvMl8iXbC1tFg9gdHHDMLoV7CnG+w==
+
 log-symbols@4.1.0, log-symbols@^4.0.0, log-symbols@^4.1.0:
   version "4.1.0"
   resolved "https://registry.yarnpkg.com/log-symbols/-/log-symbols-4.1.0.tgz#3fbdbb95b4683ac9fc785111e792e558d4abd503"
@@ -12313,10 +12325,17 @@ moment-range@^4.0.2:
   dependencies:
     es6-symbol "^3.1.0"
 
-moment-timezone@^0.5.14, moment-timezone@^0.5.17:
+moment-timezone@^0.5.14:
   version "0.5.45"
   resolved "https://registry.yarnpkg.com/moment-timezone/-/moment-timezone-0.5.45.tgz#cb685acd56bac10e69d93c536366eb65aa6bcf5c"
   integrity sha512-HIWmqA86KcmCAhnMAN0wuDOARV/525R2+lOLotuGFzn4HO+FH+/645z2wx0Dt3iDv6/p61SIvKnDstISainhLQ==
+  dependencies:
+    moment "^2.29.4"
+
+moment-timezone@^0.5.48:
+  version "0.5.48"
+  resolved "https://registry.yarnpkg.com/moment-timezone/-/moment-timezone-0.5.48.tgz#111727bb274734a518ae154b5ca589283f058967"
+  integrity sha512-f22b8LV1gbTO2ms2j2z13MuPogNoh5UzxL3nzNAYKGraILnbGc9NEE6dyiiiLv46DGRb8A4kg8UKWLjPthxBHw==
   dependencies:
     moment "^2.29.4"
 
@@ -13448,7 +13467,7 @@ prompts@^2.0.1:
     kleur "^3.0.3"
     sisteransi "^1.0.5"
 
-prop-types-extra@^1.1.0:
+prop-types-extra@^1.1.0, prop-types-extra@^1.1.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/prop-types-extra/-/prop-types-extra-1.1.1.tgz#58c3b74cbfbb95d304625975aa2f0848329a010b"
   integrity sha512-59+AHNnHYCdiC+vMwY52WmvP5dM3QLeoumYuEyceQDi9aEhtwN9zIQ2ZNo25sMyXnbh32h+P1ezDsUpUH3JAew==
@@ -13585,7 +13604,7 @@ qs@~6.5.2:
   resolved "https://registry.yarnpkg.com/qs/-/qs-6.5.3.tgz#3aeeffc91967ef6e35c0e488ef46fb296ab76aad"
   integrity sha512-qxXIEh4pCGfHICj1mAJQ2/2XVZkjCDTcEgfoSQxc/fYivUZxTkk7L3bDBJSoNrEzXI17oUO5Dp07ktqE5KzczA==
 
-query-string@^7.1.2:
+query-string@^7.1.2, query-string@^7.1.3:
   version "7.1.3"
   resolved "https://registry.yarnpkg.com/query-string/-/query-string-7.1.3.tgz#a1cf90e994abb113a325804a972d98276fe02328"
   integrity sha512-hh2WYhq4fi8+b+/2Kg9CEge4fDPvHS534aOOvOZeQ3+Vf2mCFsaFBYj0i+iXcAq6I9Vzp5fjMFBlONvayDC1qg==
@@ -13705,7 +13724,7 @@ rc@1.2.8, rc@^1.2.7:
     minimist "^1.2.0"
     strip-json-comments "~2.0.1"
 
-react-beautiful-dnd@^13.1.0:
+react-beautiful-dnd@^13.1.1:
   version "13.1.1"
   resolved "https://registry.yarnpkg.com/react-beautiful-dnd/-/react-beautiful-dnd-13.1.1.tgz#b0f3087a5840920abf8bb2325f1ffa46d8c4d0a2"
   integrity sha512-0Lvs4tq2VcrEjEgDXHjT98r+63drkKEgqyxdA7qD3mvKwga6a5SscbdLPO2IExotU1jW8L0Ksdl0Cj2AF67nPQ==
@@ -13727,12 +13746,12 @@ react-cookie@^7.2.2:
     hoist-non-react-statics "^3.3.2"
     universal-cookie "^7.0.0"
 
-react-copy-to-clipboard@^5.0.1:
-  version "5.1.0"
-  resolved "https://registry.yarnpkg.com/react-copy-to-clipboard/-/react-copy-to-clipboard-5.1.0.tgz#09aae5ec4c62750ccb2e6421a58725eabc41255c"
-  integrity sha512-k61RsNgAayIJNoy9yDsYzDe/yAZAzEbEgcz3DZMhF686LEyukcE1hzurxe85JandPUG+yTfGVFzuEw3xt8WP/A==
+react-copy-to-clipboard@^5.1.1:
+  version "5.1.1"
+  resolved "https://registry.yarnpkg.com/react-copy-to-clipboard/-/react-copy-to-clipboard-5.1.1.tgz#76adb8be03616e99692fcf3f762365ed3fb5ff16"
+  integrity sha512-s+HrzLyJBxrpGTYXF15dTgMjAJpEPZT/Yp6NytAtZMRngejxt6Pt5WrfFxLAcsqUDU6sY1Jz6tyHwIicE1U2Xg==
   dependencies:
-    copy-to-clipboard "^3.3.1"
+    copy-to-clipboard "^3.3.3"
     prop-types "^15.8.1"
 
 react-dom@^18.2.0:
@@ -13743,7 +13762,7 @@ react-dom@^18.2.0:
     loose-envify "^1.1.0"
     scheduler "^0.23.0"
 
-react-final-form-arrays@^3.1.0, react-final-form-arrays@^3.1.1:
+react-final-form-arrays@^3.1.0, react-final-form-arrays@^3.1.4:
   version "3.1.4"
   resolved "https://registry.yarnpkg.com/react-final-form-arrays/-/react-final-form-arrays-3.1.4.tgz#2744941d8fd200fc648481022e515588f60bbac3"
   integrity sha512-siVFAolUAe29rMR6u8VwepoysUcUdh6MLV2OWnCtKpsPRUdT9VUgECjAPaVMAH2GROZNiVB9On1H9MMrm9gdpg==
@@ -13757,7 +13776,7 @@ react-final-form-listeners@^1.0.3:
   dependencies:
     "@babel/runtime" "^7.12.5"
 
-react-final-form@^6.3.0:
+react-final-form@^6.3.0, react-final-form@^6.5.9:
   version "6.5.9"
   resolved "https://registry.yarnpkg.com/react-final-form/-/react-final-form-6.5.9.tgz#644797d4c122801b37b58a76c87761547411190b"
   integrity sha512-x3XYvozolECp3nIjly+4QqxdjSSWfcnpGEL5K8OBT6xmGrq5kBqbA6+/tOqoom9NwqIPPbxPNsOViFlbKgowbA==
@@ -13826,7 +13845,7 @@ react-overlays@^5.2.1:
     uncontrollable "^7.2.1"
     warning "^4.0.3"
 
-react-query@^3.6.0, react-query@^3.9.8:
+react-query@^3.39.3, react-query@^3.6.0:
   version "3.39.3"
   resolved "https://registry.yarnpkg.com/react-query/-/react-query-3.39.3.tgz#4cea7127c6c26bdea2de5fb63e51044330b03f35"
   integrity sha512-nLfLz7GiohKTJDuT4us4X3h/8unOh+00MLb2yJoGTPjxKs2bc1iDhkNx2bd5MKklXnOD3NrVZ+J2UXujA5In4g==
@@ -13886,7 +13905,7 @@ react-router-dom@^5.2.0:
     tiny-invariant "^1.0.2"
     tiny-warning "^1.0.0"
 
-react-router-prop-types@^1.0.4:
+react-router-prop-types@^1.0.5:
   version "1.0.5"
   resolved "https://registry.yarnpkg.com/react-router-prop-types/-/react-router-prop-types-1.0.5.tgz#2e671d8412a793106bf70dc15c9ecc83ea4bc15b"
   integrity sha512-q1xlFU2ol2U5zeVbA5hyBuxD3scHenqgMgCTuJQUanA2SyG8A3Fb1S6DleOo1cnGJB5Q05hnLge64kRj+xsuPA==
@@ -13992,7 +14011,7 @@ redent@^3.0.0:
     indent-string "^4.0.0"
     strip-indent "^3.0.0"
 
-redux-form@^8.3.0:
+redux-form@^8.3.0, redux-form@^8.3.10:
   version "8.3.10"
   resolved "https://registry.yarnpkg.com/redux-form/-/redux-form-8.3.10.tgz#335657fafd4b26b91b4ce65371cd9dabe3648158"
   integrity sha512-Eeog8dJYUxCSZI/oBoy7VkprvMjj1lpUnHa3LwjVNZvYDNeiRZMoZoaAT+6nlK2YQ4aiBopKUMiLe4ihUOHCGg==
